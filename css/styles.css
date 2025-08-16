@@ -50,13 +50,9 @@ body {
     color: #a3a882;
     margin: 10px 0 0;
 }
-.header-title + p + p {
-    margin: 40px 0 0;
-    font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 22px;
-    text-align: center;
-    color: #fff;
+.div> p + p {
+    margin-top:  40px 0 0;
+
 }
 .header-link {
     margin: 39px 0 0;
