@@ -59,15 +59,12 @@ body {
     text-decoration: none;
     color: #ffe482;
 }
-.header link a1 {
-    color: #ffe482;
-    margin-right: 20px;
-}
-.header link a2 {
-    color: #ffe482;
-    margin-left: 20px;
 
+.header-link a1, .header-link a2 {
+    font-size: 22px;
+    margin: 0 20px;
 }
+
 /* MAIN */
 .main {
     font-family: var(--font-family);
