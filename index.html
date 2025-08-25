@@ -4,19 +4,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,
-    900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/styles.css">
     <title>Portfolio</title>
 </head>
-
+ 
 <body>
     <header class="header">
-        <img src="img/theme.svg">
+        <div class="header-theme">
+         <img src="img/theme.svg" width="40" height="40">
+    </div>
         <div class="container">
             <div class="header-content">
+                <div class="header-head>
+                        <ul class="header-list">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Portfolio</a></li>
+                            <li><a href="#">About me</a></li>
+                            <li><a href="#">Contacts</a></li>
+                        </ul>
+                    </div>
+            </div>
             <!-- header photo -->
             <div class="header-photo">
                 <img src="img/image1.png"> <width="215" height="215"> 
@@ -40,7 +47,8 @@
                     <a href="https://youtube.com" target="_blank">
                     <img src="img/youtube.svg"></a></li>
               </ul>
-                </div>
+            </div>
+            
 
                <!-- header desk -->
                   <ul class="header-desk">
@@ -53,7 +61,7 @@
                    <li>
                     <p>5+ </p> 
                     <p>Satisfied customers</p></li>
-            </ul>
+                   </ul>
                
                <div class="header-links">
                 <a href="#">Download CV</a>
@@ -64,34 +72,36 @@
         <section class="portfolio">
             <div class="container">
                 <h2 class="main-title">Portfolio</h2>
-                <div class="portfolio-cards">
-                    <article class="portfolio-card no-margin">
+                <div class="portfolio-float-cards clearfix">
+                    <article class="portfolio-float-card">
                         <img src="img/img_1.png" alt="portfolio image" width="380" height="226">
                     </article>
 
-                     <article class="portfolio-card">
+                     <article class="portfolio-float-card">
                         <img src="img/img_2.png" alt="portfolio image" width="380" height="226">
                     </article>
 
-                     <article class="portfolio-card">
+                     <article class="portfolio-float-card">
                         <img src="img/img_3.png" alt="portfolio image" width="380" height="226">
                     </article>
 
-                     <article class="portfolio-card no-margin">
+                     <article class="portfolio-float-card">
                         <img src="img/img_4.png" alt="portfolio image" width="380" height="226">
                     </article>
 
-                     <article class="portfolio-card">
+                     <article class="portfolio-float-card">
                         <img src="img/img_5.png" alt="portfolio image" width="380" height="226">
                     </article>
 
-                     <article class="portfolio-card">
+                     <article class="portfolio-float-card">
                         <img src="img/img_6.png" alt="portfolio image" width="380" height="226">
                     </article>
                 </div>
             </div>
-                <!-- main   -->
-                 <section class="yelow-section">
+        </section>
+
+        <section class="yelow-section">
+            <div class="container">
                     <h2 class="main-title">About Me</h2>
                 <!-- main desk -->
                       <p class="main-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod nostrum repudiandae
@@ -99,21 +109,14 @@
                       non quibusdam doloremque corrupti sit. Deserunt dolores recusandae quam error! Vero maiores repudiandae 
                       delectus fugiat, eaque rem nihil pariatur temporibus mollitia incidunt?
                      Culpa dignissimos error eum aspernatur nesciunt et temporibus voluptate animi natus qui!</p>
-                 </section>
-    
-        </section>
+            </div>
+         </section>
     </main>
 
     <footer class="footer">
         <div class="container">
-            <p class="footer">© John Doe. 2025 All rigths reserved</p>
-
+            <p class="footer-desk">© John Doe. 2025 All rigths reserved</p>
         </div>
-
-    
-
-
-
     </footer>
 </body>
 </html>
